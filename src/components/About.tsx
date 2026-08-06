@@ -34,7 +34,7 @@ export function About() {
           </div>
 
           {/* Right column: biography */}
-          <div className="lg:col-span-7">
+          <div className="lg:col-span-6">
             <motion.div
               initial={{ opacity: 0, y: 32 }}
               whileInView={{ opacity: 1, y: 0 }}
