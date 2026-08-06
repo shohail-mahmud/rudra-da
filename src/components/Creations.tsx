@@ -8,7 +8,7 @@ export function Creations() {
   const [selectedFilm, setSelectedFilm] = useState<Film | null>(null);
 
   return (
-    <section id="creations" className="bg-warm py-24 sm:py-32 lg:py-28">
+    <section id="creations" className="bg-warm py-14 sm:py-16 lg:py-20">
       <div className="mx-auto max-w-[1800px] px-6 sm:px-10 lg:px-16">
         <div className="mb-12 sm:mb-16 lg:mb-20 flex flex-col sm:flex-row sm:items-end sm:justify-between gap-6">
           <SectionHeading>Creations</SectionHeading>
