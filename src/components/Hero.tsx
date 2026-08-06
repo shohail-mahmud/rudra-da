@@ -20,9 +20,10 @@ export function Hero() {
             initial={{ opacity: 0, y: 40 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1, delay: 0.4, ease: [0.25, 0.46, 0.45, 0.94] }}
-            className="font-display text-[clamp(1.35rem,7.2vw,2.75rem)] sm:text-7xl md:text-8xl lg:text-[10rem] xl:text-[12rem] leading-[0.85] tracking-tighter text-white whitespace-nowrap"
+            className="font-display leading-[0.85] tracking-tighter text-white whitespace-nowrap"
+            style={{ fontSize: "min(11.5vw, 12rem)" }}
           >
-            RITUPARNO <br className="hidden sm:block" /> GHOSH
+            RITUPARNO GHOSH
           </motion.h1>
 
           <motion.p
