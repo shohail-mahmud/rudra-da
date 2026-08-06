@@ -43,9 +43,21 @@ export function FilmCard({ film, onSelect, index }: FilmCardProps) {
             <p className="line-clamp-3 font-body text-sm leading-relaxed text-white/80 mb-5">
               {film.description}
             </p>
-            <span className="inline-block border border-white/40 px-5 py-2 font-body text-[11px] uppercase tracking-[0.2em] text-white transition-colors hover:bg-white hover:text-ink touch-target">
-              Watch Now
-            </span>
+            {film.streamingUrl ? (
+              <a
+                href={film.streamingUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                onClick={(e) => e.stopPropagation()}
+                className="inline-block border border-white/40 px-5 py-2 font-body text-[11px] uppercase tracking-[0.2em] text-white transition-colors hover:bg-white hover:text-ink touch-target"
+              >
+                Watch Now
+              </a>
+            ) : (
+              <span className="font-body text-[11px] uppercase tracking-[0.2em] text-white/50">
+                Not available for free streaming.
+              </span>
+            )}
           </div>
         </div>
       </div>
