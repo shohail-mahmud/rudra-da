@@ -4,7 +4,7 @@ import { awards } from "../data/awards";
 
 export function Achievements() {
   return (
-    <section id="achievements" className="bg-paper py-24 sm:py-32 lg:py-40">
+    <section id="achievements" className="bg-paper py-24 sm:py-32 lg:py-28">
       <div className="mx-auto max-w-[1800px] px-6 sm:px-10 lg:px-16">
         <div className="mb-16 sm:mb-20 lg:mb-24">
           <SectionHeading>Achievements</SectionHeading>

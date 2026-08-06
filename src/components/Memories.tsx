@@ -5,7 +5,7 @@ import { memories } from "../data/memories";
 
 export function Memories() {
   return (
-    <section id="memories" className="bg-ink py-24 sm:py-32 lg:py-40 text-paper">
+    <section id="memories" className="bg-ink py-24 sm:py-32 lg:py-28 text-paper">
       <div className="mx-auto max-w-[1800px] px-6 sm:px-10 lg:px-16">
         <div className="mb-16 sm:mb-20 lg:mb-24">
           <SectionHeading className="text-paper">Memories</SectionHeading>
@@ -20,7 +20,7 @@ export function Memories() {
           </motion.p>
         </div>
 
-        <div className="space-y-20 sm:space-y-28 lg:space-y-36">
+        <div className="space-y-20 sm:space-y-28 lg:space-y-24">
           {memories.map((memory, index) => {
             if (memory.type === "quote") {
               return (
@@ -31,14 +31,14 @@ export function Memories() {
                   viewport={{ once: true, margin: "-80px" }}
                   transition={{ duration: 0.8, delay: 0.05 }}
                   className={`grid gap-8 lg:grid-cols-12 ${
-                    index % 2 === 1 ? "lg:text-right" : ""
+                    index === 0 ? "" : "lg:text-center"
                   }`}
                 >
-                  <div className={`lg:col-span-8 ${index % 2 === 1 ? "lg:col-start-5" : ""}`}>
+                  <div className={`lg:col-span-8 ${index === 0 ? "" : "lg:col-span-8 lg:col-start-3"}`}>
                     <blockquote className="font-display text-2xl sm:text-3xl md:text-4xl lg:text-5xl leading-snug tracking-tight text-white">
                       “{memory.text}”
                     </blockquote>
-                    <div className="mt-6 flex flex-col sm:flex-row sm:items-center gap-2 sm:gap-4">
+                    <div className={`mt-6 flex flex-col sm:flex-row sm:items-center gap-2 sm:gap-4 ${index === 0 ? "" : "lg:justify-center"}`}>
                       <span className="font-body text-sm uppercase tracking-[0.15em] text-white/70">
                         {memory.attribution}
                       </span>

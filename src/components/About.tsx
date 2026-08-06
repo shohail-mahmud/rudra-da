@@ -5,13 +5,13 @@ const labels = ["Filmmaker", "Writer", "Actor", "Cultural Figure"];
 
 export function About() {
   return (
-    <section id="about" className="bg-paper py-24 sm:py-32 lg:py-40">
+    <section id="about" className="bg-paper py-24 sm:py-32 lg:py-28">
       <div className="mx-auto max-w-[1800px] px-6 sm:px-10 lg:px-16">
-        <div className="grid gap-12 lg:grid-cols-12 lg:gap-20">
+        <div className="grid gap-12 lg:grid-cols-12 lg:gap-14">
           {/* Left column: heading + labels */}
-          <div className="lg:col-span-5">
-            <SectionHeading className="mb-8 sm:mb-12">About</SectionHeading>
-            <div className="mt-8 sm:mt-10">
+          <div className="lg:col-span-6">
+            <SectionHeading className="mb-6 sm:mb-8">About</SectionHeading>
+            <div className="mt-6 sm:mt-8">
               <p className="mb-5 font-body text-[10px] uppercase tracking-[0.2em] text-fog">
                 Roles
               </p>
@@ -34,7 +34,7 @@ export function About() {
           </div>
 
           {/* Right column: biography */}
-          <div className="lg:col-span-7">
+          <div className="lg:col-span-6">
             <motion.div
               initial={{ opacity: 0, y: 32 }}
               whileInView={{ opacity: 1, y: 0 }}
@@ -66,7 +66,7 @@ export function About() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, margin: "-80px" }}
               transition={{ duration: 0.9, delay: 0.3 }}
-              className="mt-12 sm:mt-16 lg:mt-20"
+              className="mt-10 sm:mt-12 lg:mt-14"
             >
               <div className="overflow-hidden bg-warm">
                 <img
