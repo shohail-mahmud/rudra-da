@@ -110,14 +110,20 @@ export function FilmModal({ film, onClose }: FilmModalProps) {
                   </div>
                 )}
 
-                <a
-                  href={film.streamingUrl || "#"}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-block bg-ink px-8 py-3 font-body text-xs uppercase tracking-[0.2em] text-white transition-colors hover:bg-charcoal"
-                >
-                  Watch Now
-                </a>
+                {film.streamingUrl ? (
+                  <a
+                    href={film.streamingUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-block bg-ink px-8 py-3 font-body text-xs uppercase tracking-[0.2em] text-white transition-colors hover:bg-charcoal"
+                  >
+                    Watch Now
+                  </a>
+                ) : (
+                  <span className="font-body text-xs uppercase tracking-[0.2em] text-fog">
+                    Not available for free streaming.
+                  </span>
+                )}
               </div>
             </div>
           </motion.div>

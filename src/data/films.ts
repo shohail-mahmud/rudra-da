@@ -22,6 +22,7 @@ export const films: Film[] = [
     description:
       "Ghosh’s directorial debut, a family film about a young boy who inherits a magician’s ring and the strange happenings that follow. Based on the Shirshendu Mukhopadhyay novel.",
     cast: ["Moon Moon Sen", "Basanta Choudhury", "Pradip Mukherjee"],
+    streamingUrl: "https://youtu.be/UDkISO3KHOY?si=O-2XFP9_B9s56WLg",
   },
   {
     id: "unishe-april",
@@ -34,6 +35,7 @@ export const films: Film[] = [
       "A celebrated dancer and her estranged daughter confront two decades of silence, resentment, and unspoken love during a single April evening. A landmark chamber drama that announced Ghosh as a major voice in Bengali cinema.",
     cast: ["Aparna Sen", "Debashree Roy", "Prosenjit Chatterjee"],
     awards: ["National Film Award for Best Feature Film"],
+    streamingUrl: "https://youtu.be/8BwMpXSGgp4?si=GYWcvy5eqGIQHLT3",
   },
   {
     id: "dahan",
@@ -46,6 +48,7 @@ export const films: Film[] = [
       "A brutal street assault on a young woman exposes the moral fractures of middle-class Kolkata. Ghosh traces the ripple effects of courage, complicity, and compromise across two women’s lives.",
     cast: ["Rituparna Sengupta", "Indrani Halder", "Suman Faulkner"],
     awards: ["National Film Award for Best Screenplay", "National Film Award for Best Feature Film in Bengali"],
+    streamingUrl: "https://youtu.be/IqP_XEtu2BU?si=myN65W4ei47f_llc",
   },
   {
     id: "asukh",
@@ -58,6 +61,7 @@ export const films: Film[] = [
       "A young actress faces a private health crisis while her mother grapples with the cost of ambition. Ghosh draws an intimate portrait of vulnerability within a family of performers.",
     cast: ["Debashree Roy", "Soumitra Chatterjee", "Silajit Majumder"],
     awards: ["National Film Award for Best Feature Film in Bengali"],
+    streamingUrl: "https://youtu.be/A9wBJ0EukS8?si=PrSik01PdJSkfYd1",
   },
   {
     id: "bariwali",
@@ -70,6 +74,7 @@ export const films: Film[] = [
       "A lonely landlord’s quiet life is disrupted when a film crew rents her ancestral home. A meditation on longing, solitude, and the performance of everyday life.",
     cast: ["Kirron Kher", "Roopa Ganguly", "Chiranjeet Chakraborty"],
     awards: ["NETPAC Award, Berlin International Film Festival"],
+    streamingUrl: "https://youtu.be/qxfGpsxEkU8?si=zMX5EbI2ygOAVDlG",
   },
   {
     id: "utsab",
@@ -82,6 +87,7 @@ export const films: Film[] = [
       "During the rituals of Durga Puja, a family gathers in their decaying mansion and confronts old wounds, hidden debts, and the fragile bonds that still hold them together.",
     cast: ["Madhabi Mukherjee", "Mamata Shankar", "Prasenjit Chatterjee"],
     awards: ["National Film Award for Best Direction"],
+    streamingUrl: "https://youtu.be/AZgedEFRUe4?si=gYLOmR2BLQ-zmjnp",
   },
   {
     id: "titli",
@@ -94,6 +100,7 @@ export const films: Film[] = [
       "An adolescent girl idolises a matinee idol while navigating her own awakening. Ghosh captures the tenderness and turbulence of growing up with remarkable restraint.",
     cast: ["Konkona Sen Sharma", "Aparna Sen", "Mithun Chakraborty"],
     awards: ["FIPRESCI Prize, Bombay International Film Festival"],
+    streamingUrl: "https://youtu.be/a2mqZKnAuC4?si=fE7DED2jQ82YZV29",
   },
   {
     id: "shubho-mahurat",
@@ -106,6 +113,7 @@ export const films: Film[] = [
       "A Bengal reimagining of Agatha Christie’s Miss Marple mystery, set inside the world of cinema. An elegant whodunit where every character carries a shadow.",
     cast: ["Sharmila Tagore", "Rakhee Gulzar", "Nandita Das"],
     awards: ["National Film Award for Best Feature Film in Bengali", "National Film Award for Best Supporting Actress"],
+    streamingUrl: "https://youtu.be/24AmUiM1i2w?si=QEe2IB5CgmumYRxF",
   },
   {
     id: "chokher-bali",
@@ -118,6 +126,7 @@ export const films: Film[] = [
       "Rabindranath Tagore’s widow Binodini enters a household of desire, deceit, and repressed longing. Ghosh’s first collaboration with Aishwarya Rai became a milestone in literary adaptation.",
     cast: ["Aishwarya Rai", "Prosenjit Chatterjee", "Raima Sen", "Tota Roy Chowdhury"],
     awards: ["National Film Award for Best Feature Film in Bengali"],
+    streamingUrl: "https://youtu.be/9y4ZKdg93kI?si=4DQEb8JrWkigzSBk",
   },
   {
     id: "raincoat",
@@ -129,6 +138,7 @@ export const films: Film[] = [
       "Two former lovers meet again on a rainy afternoon in Kolkata, each hiding the truth of their lives. A chamber piece of unspoken emotions, adapted from O. Henry’s The Gift of the Magi.",
     cast: ["Ajay Devgn", "Aishwarya Rai", "Annu Kapoor"],
     awards: ["National Film Award for Best Feature Film in Hindi"],
+    streamingUrl: "https://youtu.be/nCvF1dgDEz0?si=KwHy0-hhJ3PxmCvH",
   },
   {
     id: "antarmahal",
@@ -140,6 +150,7 @@ export const films: Film[] = [
     description:
       "In 19th-century Bengal, a zamindar exploits two wives in his quest for a male heir. A stark, sensual drama about power, patriarchy, and female resistance.",
     cast: ["Jackie Shroff", "Roopa Ganguly", "Soha Ali Khan", "Abhishek Bachchan"],
+    streamingUrl: "https://youtu.be/VKuPqPoYyBc?si=gvFHlcPvCSqrAvqk",
   },
   {
     id: "dosar",
@@ -152,6 +163,7 @@ export const films: Film[] = [
       "Filmed in black and white, a man survives a car accident that kills his lover and must face the wreckage of his marriage. An unflinching study of guilt and forgiveness.",
     cast: ["Prosenjit Chatterjee", "Konkona Sen Sharma"],
     awards: ["National Film Award – Special Mention"],
+    streamingUrl: "https://youtu.be/7Ji1sesdBcM?si=9QTq7HgJ6r44rdNf",
   },
   {
     id: "the-last-lear",
@@ -163,6 +175,7 @@ export const films: Film[] = [
       "An ageing Shakespearean actor returns to the stage for one final, demanding role. Ghosh’s English-language film is a luminous tribute to theatre, memory, and mortality.",
     cast: ["Amitabh Bachchan", "Preity Zinta", "Arjun Rampal"],
     awards: ["National Film Award for Best Feature Film in English"],
+    streamingUrl: "https://youtu.be/BJKGFpbXzmQ?si=uRavzOX5olzYpOC9",
   },
   {
     id: "mumbai-cutting",
@@ -184,6 +197,7 @@ export const films: Film[] = [
     description:
       "A filmmaker struggling with his next project forms an unexpected bond with a young boy. Ghosh reflects on the innocence and artifice of cinema itself.",
     cast: ["Prasenjit Chatterjee", "Manisha Koirala"],
+    streamingUrl: "https://youtu.be/mdJpLbC1tQY?si=EqyUkAti24Qze2bP",
   },
   {
     id: "shob-charitro-kalponik",
@@ -196,6 +210,7 @@ export const films: Film[] = [
       "After a poet’s death, his widow journeys into his past and discovers the women who shaped his art. A film about memory, betrayal, and the fictions we live by.",
     cast: ["Prosenjit Chatterjee", "Bipasha Basu", "Jisshu Sengupta"],
     awards: ["National Film Award for Best Feature Film in Bengali"],
+    streamingUrl: "https://youtu.be/6pmnLiKDBOY?si=lf65tt47ZKrpwed1",
   },
   {
     id: "abohoman",
@@ -208,6 +223,7 @@ export const films: Film[] = [
       "An ageing director falls for an actress who recalls his first love, blurring past and present. Ghosh’s most autobiographical work, and his second National Award for direction.",
     cast: ["Dipankar Dey", "Mamata Shankar", "Jisshu Sengupta", "Ananya Chatterjee"],
     awards: ["National Film Award for Best Direction", "National Film Award for Best Feature Film in Bengali"],
+    streamingUrl: "https://youtu.be/cPB9_4uQO0Q?si=9yw68jAM5cra-RJi",
   },
   {
     id: "noukadubi",
@@ -219,6 +235,7 @@ export const films: Film[] = [
     description:
       "A stormy night, a boat wreck, and a case of mistaken identity set the stage for this Tagore adaptation about love, duty, and the accidents that shape our lives.",
     cast: ["Prosenjit Chatterjee", "Raima Sen", "Jisshu Sengupta", "Riya Sen"],
+    streamingUrl: "https://youtu.be/Xu8mAGO4e80?si=cQq9Uhr95TdnUhIb",
   },
   {
     id: "chitrangada",
@@ -231,6 +248,7 @@ export const films: Film[] = [
       "A choreographer undergoes a gender transition to become the parent he wishes to be. Ghosh’s final, fearless work weaves personal longing with the Mahabharata myth of Chitrangada.",
     cast: ["Rituparno Ghosh", "Jisshu Sengupta", "Raima Sen"],
     awards: ["National Film Award – Special Jury Award"],
+    streamingUrl: "https://youtu.be/Wh6ZzAps3kc?si=zkntMsQRsyJo015G",
   },
   {
     id: "satyanweshi",
@@ -242,6 +260,7 @@ export const films: Film[] = [
     description:
       "Ghosh’s final film brings Byomkesh Bakshi to the screen in a moody investigation of murder and moral ambiguity. Released posthumously, it stands as a poignant farewell.",
     cast: ["Sujoy Ghosh", "Indraneil Sengupta"],
+    streamingUrl: "https://youtu.be/oZIGuJ23DWc?si=cz47kCEKmf_cjIHd",
   },
   {
     id: "sunglass",
