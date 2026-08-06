@@ -38,7 +38,7 @@ export function Memories() {
                     <blockquote className="font-display text-2xl sm:text-3xl md:text-4xl lg:text-5xl leading-snug tracking-tight text-white">
                       “{memory.text}”
                     </blockquote>
-                    <div className="mt-6 flex flex-col sm:flex-row sm:items-center gap-2 sm:gap-4">
+                    <div className={`mt-6 flex flex-col sm:flex-row sm:items-center gap-2 sm:gap-4 ${index === 0 ? "" : "lg:justify-center"}`}>
                       <span className="font-body text-sm uppercase tracking-[0.15em] text-white/70">
                         {memory.attribution}
                       </span>
