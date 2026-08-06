@@ -5,11 +5,11 @@ const labels = ["Filmmaker", "Writer", "Actor", "Cultural Figure"];
 
 export function About() {
   return (
-    <section id="about" className="bg-paper py-24 sm:py-32 lg:py-28">
+    <section id="about" className="bg-paper py-14 sm:py-16 lg:py-20">
       <div className="mx-auto max-w-[1800px] px-6 sm:px-10 lg:px-16">
         <div className="grid gap-12 lg:grid-cols-12 lg:gap-14">
           {/* Left column: heading + labels */}
-          <div className="lg:col-span-6">
+          <div className="lg:col-span-4">
             <SectionHeading className="mb-6 sm:mb-8">About</SectionHeading>
             <div className="mt-6 sm:mt-8">
               <p className="mb-5 font-body text-[10px] uppercase tracking-[0.2em] text-fog">
@@ -34,7 +34,7 @@ export function About() {
           </div>
 
           {/* Right column: biography */}
-          <div className="lg:col-span-6">
+          <div className="lg:col-span-8">
             <motion.div
               initial={{ opacity: 0, y: 32 }}
               whileInView={{ opacity: 1, y: 0 }}

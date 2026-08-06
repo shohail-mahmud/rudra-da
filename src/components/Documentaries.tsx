@@ -83,7 +83,7 @@ function DocumentaryFeature({
 
 export function Documentaries() {
   return (
-    <section id="documentaries" className="bg-charcoal py-24 sm:py-32 lg:py-28 text-paper">
+    <section id="documentaries" className="bg-charcoal py-14 sm:py-16 lg:py-20 text-paper">
       <div className="mx-auto max-w-[1800px] px-6 sm:px-10 lg:px-16">
         <div className="mb-16 sm:mb-20 lg:mb-24">
           <SectionHeading className="text-paper">Beyond the Films</SectionHeading>
