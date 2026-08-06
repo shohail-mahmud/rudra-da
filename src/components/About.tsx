@@ -10,8 +10,8 @@ export function About() {
         <div className="grid gap-12 lg:grid-cols-12 lg:gap-14">
           {/* Left column: heading + labels */}
           <div className="lg:col-span-6">
-            <SectionHeading className="mb-8 sm:mb-12">About</SectionHeading>
-            <div className="mt-8 sm:mt-10">
+            <SectionHeading className="mb-6 sm:mb-8">About</SectionHeading>
+            <div className="mt-6 sm:mt-8">
               <p className="mb-5 font-body text-[10px] uppercase tracking-[0.2em] text-fog">
                 Roles
               </p>
@@ -66,7 +66,7 @@ export function About() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, margin: "-80px" }}
               transition={{ duration: 0.9, delay: 0.3 }}
-              className="mt-12 sm:mt-16 lg:mt-20"
+              className="mt-10 sm:mt-12 lg:mt-14"
             >
               <div className="overflow-hidden bg-warm">
                 <img
