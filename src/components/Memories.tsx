@@ -31,10 +31,10 @@ export function Memories() {
                   viewport={{ once: true, margin: "-80px" }}
                   transition={{ duration: 0.8, delay: 0.05 }}
                   className={`grid gap-8 lg:grid-cols-12 ${
-                    index % 2 === 1 ? "lg:text-right" : ""
+                    index === 0 ? "" : "lg:text-center"
                   }`}
                 >
-                  <div className={`lg:col-span-8 ${index % 2 === 1 ? "lg:col-start-5" : ""}`}>
+                  <div className={`lg:col-span-8 ${index === 0 ? "" : "lg:col-span-8 lg:col-start-3"}`}>
                     <blockquote className="font-display text-2xl sm:text-3xl md:text-4xl lg:text-5xl leading-snug tracking-tight text-white">
                       “{memory.text}”
                     </blockquote>
