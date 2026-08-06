@@ -142,3 +142,151 @@
     color: var(--color-foreground);
   }
 }
+
+
+/* ===== Rituparno Ghosh cinematic site — preserved design system ===== */
+/* Display typeface: Amorisa */
+@font-face {
+  font-family: 'Amorisa';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('https://fonts.cdnfonts.com/s/31064/Amorisa%20Free.woff') format('woff');
+}
+
+/* Primary typeface: Okien (served via Okine Sans files) */
+@font-face {
+  font-family: 'Okien';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('https://fonts.cdnfonts.com/s/84249/MADEOkineSansPERSONALUSE-Regular.woff') format('woff');
+}
+@font-face {
+  font-family: 'Okien';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url('https://fonts.cdnfonts.com/s/84249/MADEOkineSansPERSONALUSE-Medium.woff') format('woff');
+}
+@font-face {
+  font-family: 'Okien';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('https://fonts.cdnfonts.com/s/84249/MADEOkineSansPERSONALUSE-Bold.woff') format('woff');
+}
+
+
+@theme {
+  --font-display: 'Amorisa', 'Times New Roman', serif;
+  --font-body: 'Okien', 'Inter', system-ui, sans-serif;
+
+  --color-ink: #0a0a0a;
+  --color-paper: #fafaf9;
+  --color-warm: #f5f5f4;
+  --color-stone: #e7e5e4;
+  --color-charcoal: #292524;
+  --color-ash: #57534e;
+  --color-fog: #a8a29e;
+  --color-smoke: #d6d3d1;
+}
+
+:root {
+  --font-display: 'Amorisa', 'Times New Roman', serif;
+  --font-body: 'Okien', 'Inter', system-ui, sans-serif;
+
+  --color-ink: #0a0a0a;
+  --color-paper: #fafaf9;
+  --color-warm: #f5f5f4;
+  --color-stone: #e7e5e4;
+  --color-charcoal: #292524;
+  --color-ash: #57534e;
+  --color-fog: #a8a29e;
+  --color-smoke: #d6d3d1;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-body);
+  background-color: var(--color-paper);
+  color: var(--color-ink);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+::selection {
+  background-color: var(--color-ink);
+  color: var(--color-paper);
+}
+
+.font-display {
+  font-family: var(--font-display);
+}
+
+.font-body {
+  font-family: var(--font-body);
+}
+
+/* Editorial measure */
+.prose-editorial {
+  max-width: 42rem;
+}
+
+/* Focus-visible styles for accessibility */
+:focus-visible {
+  outline: 1px solid currentColor;
+  outline-offset: 2px;
+}
+
+/* Larger touch targets for mobile navigation */
+.touch-target {
+  min-height: 44px;
+  min-width: 44px;
+}
+
+/* Subtle film grain overlay */
+.grain::after {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  opacity: 0.03;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
+  z-index: 30;
+}
+
+/* Monochrome image treatment */
+.mono-image {
+  filter: grayscale(100%) contrast(1.05);
+}
+
+/* Hide scrollbar but keep functionality */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* Custom underline animation for links */
+.link-underline {
+  position: relative;
+}
+.link-underline::after {
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 0;
+  height: 1px;
+  background-color: currentColor;
+  transition: width 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+.link-underline:hover::after {
+  width: 100%;
+}
