@@ -7,9 +7,9 @@ export function About() {
   return (
     <section id="about" className="bg-paper py-24 sm:py-32 lg:py-28">
       <div className="mx-auto max-w-[1800px] px-6 sm:px-10 lg:px-16">
-        <div className="grid gap-12 lg:grid-cols-12 lg:gap-20">
+        <div className="grid gap-12 lg:grid-cols-12 lg:gap-14">
           {/* Left column: heading + labels */}
-          <div className="lg:col-span-5">
+          <div className="lg:col-span-6">
             <SectionHeading className="mb-8 sm:mb-12">About</SectionHeading>
             <div className="mt-8 sm:mt-10">
               <p className="mb-5 font-body text-[10px] uppercase tracking-[0.2em] text-fog">
