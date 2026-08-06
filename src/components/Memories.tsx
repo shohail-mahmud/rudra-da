@@ -5,7 +5,7 @@ import { memories } from "../data/memories";
 
 export function Memories() {
   return (
-    <section id="memories" className="bg-ink py-24 sm:py-32 lg:py-40 text-paper">
+    <section id="memories" className="bg-ink py-24 sm:py-32 lg:py-28 text-paper">
       <div className="mx-auto max-w-[1800px] px-6 sm:px-10 lg:px-16">
         <div className="mb-16 sm:mb-20 lg:mb-24">
           <SectionHeading className="text-paper">Memories</SectionHeading>
@@ -20,7 +20,7 @@ export function Memories() {
           </motion.p>
         </div>
 
-        <div className="space-y-20 sm:space-y-28 lg:space-y-36">
+        <div className="space-y-20 sm:space-y-28 lg:space-y-24">
           {memories.map((memory, index) => {
             if (memory.type === "quote") {
               return (

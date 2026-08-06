@@ -5,7 +5,7 @@ const labels = ["Filmmaker", "Writer", "Actor", "Cultural Figure"];
 
 export function About() {
   return (
-    <section id="about" className="bg-paper py-24 sm:py-32 lg:py-40">
+    <section id="about" className="bg-paper py-24 sm:py-32 lg:py-28">
       <div className="mx-auto max-w-[1800px] px-6 sm:px-10 lg:px-16">
         <div className="grid gap-12 lg:grid-cols-12 lg:gap-20">
           {/* Left column: heading + labels */}
