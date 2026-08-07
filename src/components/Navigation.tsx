@@ -47,7 +47,7 @@ export function Navigation() {
               <li key={item.href}>
                 <button
                   onClick={() => handleNav(item.href)}
-                  className="link-underline touch-target flex items-center font-body text-xs uppercase tracking-[0.15em] text-white/80 hover:text-white transition-colors"
+                  className="touch-target flex items-center font-body text-xs uppercase tracking-[0.15em] text-white/80 hover:text-white transition-colors"
                 >
                   {item.label}
                 </button>
