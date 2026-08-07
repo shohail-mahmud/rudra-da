@@ -11,7 +11,7 @@ import { Footer } from "@/components/Footer";
 
 const title = "Rituparno Ghosh — A Creative Soul";
 const description =
-  "A cinematic editorial tribute to the Bengali filmmaker, writer, actor, and cultural figure.";
+  "An elegant, monochrome tribute to Rituparno Ghosh — one of India's most celebrated filmmakers. Discover his films, national awards, documentaries, and memories.";
 
 export const Route = createFileRoute("/")({
   head: () => ({
