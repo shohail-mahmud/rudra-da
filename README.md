@@ -1,44 +1,43 @@
-<div align="center">
-
-<h1 style="font-family:'Amorisa','Playfair Display',Georgia,serif; font-weight:400; letter-spacing:2px; margin-bottom:4px;">🎬 RUDRA DA</h1>
-
-<p style="font-family:'Okien','Inter',system-ui,sans-serif; font-size:1.1rem; margin-top:0;">
-<em>A cinematic, monochrome tribute to the poet of Bengali cinema —</em> <strong>Rituparno Ghosh</strong>
+<p align="center">
+  <img src="public/hero.jpg" alt="Rituparno Ghosh" width="100%">
 </p>
 
-![Rituparno Ghosh](public/hero.jpg)
+<h1 align="center">🎬 RUDRA DA</h1>
 
-![React](https://img.shields.io/badge/React-19-61DAFB?style=for-the-badge&logo=react&logoColor=black)
-![TypeScript](https://img.shields.io/badge/TypeScript-5-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![Vite](https://img.shields.io/badge/Vite-8-646CFF?style=for-the-badge&logo=vite&logoColor=white)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-4-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
-![TanStack](https://img.shields.io/badge/TanStack-Start-FF4154?style=for-the-badge&logo=react-query&logoColor=white)
-![Framer Motion](https://img.shields.io/badge/Framer_Motion-12-E44D26?style=for-the-badge&logo=framer&logoColor=white)
-![Vercel](https://img.shields.io/badge/Vercel-Deployed-000000?style=for-the-badge&logo=vercel&logoColor=white)
+<p align="center">
+  <em>A cinematic, monochrome tribute to the poet of Bengali cinema — <strong>Rituparno Ghosh</strong></em>
+</p>
 
-</div>
+<p align="center">
+  <img src="https://img.shields.io/badge/React-19-61DAFB?style=flat-square&logo=react&logoColor=black" alt="React">
+  <img src="https://img.shields.io/badge/TypeScript-5-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript">
+  <img src="https://img.shields.io/badge/Vite-8-646CFF?style=flat-square&logo=vite&logoColor=white" alt="Vite">
+  <img src="https://img.shields.io/badge/Tailwind_CSS-4-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white" alt="Tailwind CSS">
+  <img src="https://img.shields.io/badge/TanStack-Start-FF4154?style=flat-square&logo=react-query&logoColor=white" alt="TanStack Start">
+  <img src="https://img.shields.io/badge/Framer_Motion-12-E44D26?style=flat-square&logo=framer&logoColor=white" alt="Framer Motion">
+  <img src="https://img.shields.io/badge/Vercel-Deployed-000000?style=flat-square&logo=vercel&logoColor=white" alt="Vercel">
+</p>
 
 ---
 
-## 🌟 About the Project
+## 🌟 About
 
-A single-page tribute website dedicated to **Rituparno Ghosh** — one of India's most celebrated film directors and screenwriters. The site is designed as a quiet, editorial, black-and-white museum of his life and work: a full-screen cinematic hero, his filmography, national awards, documentaries, and personal memories.
+A single-page tribute website dedicated to **Rituparno Ghosh** — one of India's most celebrated film directors and screenwriters. A quiet, editorial, black-and-white museum of his life and work: a full-screen cinematic hero, his filmography, national awards, documentaries, and personal memories.
 
-**The design language:** monochrome editorial aesthetic · Amorisa display typography · Okien UI type · smooth cinematic animations · fully responsive from phone to widescreen.
+**Design language:** monochrome editorial aesthetic · Amorisa display typography · Okien UI type · smooth cinematic animations · fully responsive from phone to widescreen.
 
 ---
 
 ## ✨ Features
 
-- 🎞️ **Full-screen cinematic hero** — striking portrait with an animated title reveal
-- 🎥 **Netflix-inspired Creations section** — browse his films in a scrollable carousel
-- 🏆 **Achievements timeline** — National Film Awards and honours
-- 🎬 **Film detail modals** — click any film for more information
-- 🎙️ **Documentaries** — his work beyond fiction
-- 📷 **Memories gallery** — moments from his life
-- 🖤 **Monochrome editorial aesthetic** — dark, minimal, timeless
-- 📱 **Fully responsive** — polished on mobile and desktop
-- ✨ **Silky animations** — Framer Motion page transitions & scroll effects
+- 🎞️ Full-screen cinematic hero with an animated title reveal
+- 🎥 Netflix-inspired Creations section — browse his films in a scrollable carousel
+- 🏆 Achievements timeline — National Film Awards and honours
+- 🎬 Film detail modals
+- 🎙️ Documentaries — his work beyond fiction
+- 📷 Memories gallery — moments from his life
+- 🖤 Monochrome editorial aesthetic — dark, minimal, timeless
+- 📱 Fully responsive — polished on mobile and desktop
 
 ---
 
@@ -46,41 +45,68 @@ A single-page tribute website dedicated to **Rituparno Ghosh** — one of India'
 
 | Layer | Technology |
 |------|------------|
-| **Framework** | [TanStack Start](https://tanstack.com/start) (React 19 + SSR) |
-| **Language** | TypeScript |
-| **Build tool** | Vite |
-| **Styling** | Tailwind CSS 4 + custom typography |
-| **UI primitives** | shadcn/ui (Radix) |
-| **Animation** | Framer Motion |
-| **Routing** | TanStack Router |
-| **Deployment** | Vercel |
+| Framework | TanStack Start (React 19 + SSR) |
+| Language | TypeScript |
+| Build tool | Vite |
+| Styling | Tailwind CSS 4 + custom typography |
+| UI primitives | shadcn/ui (Radix) |
+| Animation | Framer Motion |
+| Routing | TanStack Router |
+| Deployment | Vercel |
 
 ---
 
-## 🚀 Getting Started
+## 🚀 Run Locally
 
-```sh
-git clone https://github.com/shohail-mahmud/rudra-da.git
-cd rudra-da
-npm install   # or: bun install
-npm run dev
-Open http://localhost:8080 — that's it.
+    git clone https://github.com/shohail-mahmud/rudra-da.git
+    cd rudra-da
+    npm install   # or: bun install
+    npm run dev
 
-Production build
-Shell
+Open localhost:8080 in your browser.
 
-npm run build
-npm run preview
-👨‍💻 Developed By
-<div align="center"><img src="public/developer-logo.png" alt="Shohail Mahmud" width="140" height="140" style="border-radius:50%; border:2px solid #111;" /><h2 style="font-family:'Amorisa','Playfair Display',Georgia,serif; font-weight:400; letter-spacing:1px; margin-bottom:4px;">Shohail Mahmud</h2><p style="font-family:'Okien','Inter',system-ui,sans-serif; margin-top:0;"> <em>Bangladeshi Web Developer · AI-Assisted Builder · Vibe Coder</em> </p>
-GitHub
-Instagram
-Gmail
+### Production build
 
-Built with 🖤 for the memory of Rituparno Ghosh
+    npm run build
+    npm run preview
 
-</div>
-<div align="center">
-Made with Lovable · Preserved & shipped with care
+---
 
-</div> ```
+## 👨‍💻 Developed By
+
+<p align="center">
+  <img src="public/developer-logo.png" alt="Shohail Mahmud" width="130">
+</p>
+
+<h3 align="center">Shohail Mahmud</h3>
+
+<p align="center">
+  <em>Bangladeshi Web Developer · AI-Assisted Builder · Vibe Coder</em>
+</p>
+
+<p align="center">
+  <a href="https://github.com/shohail-mahmud">
+    <img src="https://img.shields.io/badge/GitHub-shohail--mahmud-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub">
+  </a>
+  <a href="https://instagram.com/shohailmahmud09">
+    <img src="https://img.shields.io/badge/Instagram-%40shohailmahmud09-E4405F?style=flat-square&logo=instagram&logoColor=white" alt="Instagram">
+  </a>
+  <a href="mailto:nirjonpc@gmail.com">
+    <img src="https://img.shields.io/badge/Gmail-nirjonpc%40gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white" alt="Gmail">
+  </a>
+</p>
+
+---
+
+## 🤖 Vibe Coded with AI
+
+*Directed by a human. Accelerated by AI.*
+
+| Role | AI |
+|------|-----|
+| 💡 Idea refinement | ChatGPT |
+| 🎨 UI polish | Local model |
+| 💻 Coding | Kimi K2.7 |
+| 🏗️ Environment | Lovable |
+
+*Preserved & shipped with care*
