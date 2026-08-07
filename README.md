@@ -1,104 +1,86 @@
-# RUDRA DA
+<div align="center">
 
-This project is already completed. Your job is to preserve it, not redesign it.
+<h1 style="font-family:'Amorisa','Playfair Display',Georgia,serif; font-weight:400; letter-spacing:2px; margin-bottom:4px;">🎬 RUDRA DA</h1>
 
-Treat this as a migration and codebase adoption, NOT a new website generation.
+<p style="font-family:'Okien','Inter',system-ui,sans-serif; font-size:1.1rem; margin-top:0;">
+<em>A cinematic, monochrome tribute to the poet of Bengali cinema —</em> <strong>Rituparno Ghosh</strong>
+</p>
 
-Before making any changes, carefully analyze the entire project structure, components, styles, assets, routing, typography, animations, responsiveness, and existing functionality.
+![Rituparno Ghosh](public/hero.jpg)
 
-IMPORTANT RULES
+![React](https://img.shields.io/badge/React-19-61DAFB?style=for-the-badge&logo=react&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-5-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-8-646CFF?style=for-the-badge&logo=vite&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-4-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
+![TanStack](https://img.shields.io/badge/TanStack-Start-FF4154?style=for-the-badge&logo=react-query&logoColor=white)
+![Framer Motion](https://img.shields.io/badge/Framer_Motion-12-E44D26?style=for-the-badge&logo=framer&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-Deployed-000000?style=for-the-badge&logo=vercel&logoColor=white)
 
-- Do NOT redesign any section.
+</div>
 
-- Do NOT change the visual identity.
+---
 
-- Do NOT replace fonts.
+## 🌟 About the Project
 
-- Do NOT replace images.
+A single-page tribute website dedicated to **Rituparno Ghosh** — one of India's most celebrated film directors and screenwriters. The site is designed as a quiet, editorial, black-and-white museum of his life and work: a full-screen cinematic hero, his filmography, national awards, documentaries, and personal memories.
 
-- Do NOT change spacing.
+**The design language:** monochrome editorial aesthetic · Amorisa display typography · Okien UI type · smooth cinematic animations · fully responsive from phone to widescreen.
 
-- Do NOT change colors.
+---
 
-- Do NOT modify animations.
+## ✨ Features
 
-- Do NOT reorganize components.
+- 🎞️ **Full-screen cinematic hero** — striking portrait with an animated title reveal
+- 🎥 **Netflix-inspired Creations section** — browse his films in a scrollable carousel
+- 🏆 **Achievements timeline** — National Film Awards and honours
+- 🎬 **Film detail modals** — click any film for more information
+- 🎙️ **Documentaries** — his work beyond fiction
+- 📷 **Memories gallery** — moments from his life
+- 🖤 **Monochrome editorial aesthetic** — dark, minimal, timeless
+- 📱 **Fully responsive** — polished on mobile and desktop
+- ✨ **Silky animations** — Framer Motion page transitions & scroll effects
 
-- Do NOT "improve" the UI unless I explicitly request it.
+---
 
-- Do NOT remove existing code because it appears unused without verifying.
+## 🛠️ Tech Stack
 
-- Do NOT simplify layouts.
+| Layer | Technology |
+|------|------------|
+| **Framework** | [TanStack Start](https://tanstack.com/start) (React 19 + SSR) |
+| **Language** | TypeScript |
+| **Build tool** | Vite |
+| **Styling** | Tailwind CSS 4 + custom typography |
+| **UI primitives** | shadcn/ui (Radix) |
+| **Animation** | Framer Motion |
+| **Routing** | TanStack Router |
+| **Deployment** | Vercel |
 
-- Do NOT regenerate content.
+---
 
-- Do NOT replace existing responsive behavior.
-
-Your first responsibility is to understand the existing codebase and preserve it exactly.
-
-Maintain:
-
-• monochrome editorial aesthetic
-
-• Amorisa display typography
-
-• Okine UI typography
-
-• existing desktop layout
-
-• existing mobile layout
-
-• Netflix-inspired Creations section
-
-• documentaries
-
-• Memories page
-
-• all animations
-
-• all interactions
-
-• all responsive behavior
-
-• all current styling
-
-If any dependency or implementation needs to change for technical reasons, preserve the visual result exactly.
-
-Whenever I request a future change:
-
-- modify only the requested part
-
-- never refactor unrelated components
-
-- never perform global redesigns
-
-- never change styling outside the requested scope
-
-- never introduce breaking visual changes
-
-Think like a developer maintaining a production website, not an AI generating a new one.
-
-For now, do not change anything.
-
-First, fully understand and preserve the project.
-
-This project was built with [Lovable](https://lovable.dev).
-
-## Build with Lovable
-
-Continue developing this project in the [Lovable editor](https://lovable.dev/projects/a11ea69f-6310-47b7-a8b5-2eb4c9d71658).
-
-- **Ship faster**: describe what you want to build and Lovable handles the code.
-- **Stay in sync**: every change made in Lovable is committed straight to this repository.
-- **Full ownership**: this code is yours. Push to `main` on GitHub and your changes sync back into Lovable, ready for your next prompt.
-
-## Development
-
-Prefer working locally? You need Node.js and npm — [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating).
+## 🚀 Getting Started
 
 ```sh
-git clone <this-repository-url>
-cd <repository-name>
-npm i
+git clone https://github.com/shohail-mahmud/rudra-da.git
+cd rudra-da
+npm install   # or: bun install
 npm run dev
-```
+Open http://localhost:8080 — that's it.
+
+Production build
+Shell
+
+npm run build
+npm run preview
+👨‍💻 Developed By
+<div align="center"><img src="public/developer-logo.png" alt="Shohail Mahmud" width="140" height="140" style="border-radius:50%; border:2px solid #111;" /><h2 style="font-family:'Amorisa','Playfair Display',Georgia,serif; font-weight:400; letter-spacing:1px; margin-bottom:4px;">Shohail Mahmud</h2><p style="font-family:'Okien','Inter',system-ui,sans-serif; margin-top:0;"> <em>Bangladeshi Web Developer · AI-Assisted Builder · Vibe Coder</em> </p>
+GitHub
+Instagram
+Gmail
+
+Built with 🖤 for the memory of Rituparno Ghosh
+
+</div>
+<div align="center">
+Made with Lovable · Preserved & shipped with care
+
+</div> ```
