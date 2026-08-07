@@ -77,21 +77,44 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
-      { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { title: "Rituparno Ghosh — A Creative Soul" },
+      {
+        name: "description",
+        content:
+          "An elegant, monochrome tribute to Rituparno Ghosh — one of India's most celebrated filmmakers. Discover his films, national awards, documentaries, and memories.",
+      },
+      { name: "author", content: "Shohail Mahmud" },
+      { property: "og:title", content: "Rituparno Ghosh — A Creative Soul" },
+      {
+        property: "og:description",
+        content:
+          "An elegant, monochrome tribute to Rituparno Ghosh — one of India's most celebrated filmmakers. Discover his films, national awards, documentaries, and memories.",
+      },
       { property: "og:type", content: "website" },
+      { property: "og:url", content: "https://rudra-da.vercel.app/" },
+      { property: "og:site_name", content: "Rudra Da" },
+      { property: "og:image", content: "https://rudra-da.vercel.app/og-image.png" },
+      { property: "og:image:width", content: "1200" },
+      { property: "og:image:height", content: "630" },
+      { property: "og:locale", content: "en_US" },
       { name: "twitter:card", content: "summary_large_image" },
-      { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "Rituparno Ghosh — A Creative Soul" },
+      {
+        name: "twitter:description",
+        content:
+          "An elegant, monochrome tribute to Rituparno Ghosh — one of India's most celebrated filmmakers. Discover his films, national awards, documentaries, and memories.",
+      },
+      { name: "twitter:image", content: "https://rudra-da.vercel.app/og-image.png" },
     ],
     links: [
       {
         rel: "stylesheet",
         href: appCss,
       },
-      { rel: "icon", href: "/favicon.ico", type: "image/x-icon" },
+      { rel: "icon", href: "/favicon.ico?v=2", type: "image/x-icon" },
+      { rel: "icon", href: "/favicon-32x32.png?v=2", type: "image/png", sizes: "32x32" },
+      { rel: "icon", href: "/favicon-16x16.png?v=2", type: "image/png", sizes: "16x16" },
+      { rel: "apple-touch-icon", href: "/apple-touch-icon.png?v=2" },
     ],
   }),
   shellComponent: RootShell,
