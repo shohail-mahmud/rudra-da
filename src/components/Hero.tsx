@@ -6,7 +6,7 @@ export function Hero() {
       {/* Portrait background */}
       <div className="absolute inset-0">
         <img
-          src="src="/hero.jpg""
+          src="/hero.jpg""
           alt="Rituparno Ghosh"
           className="h-full w-full object-cover object-top mono-image opacity-90"
         />
