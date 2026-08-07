@@ -8,7 +8,7 @@ export function Hero() {
         <img
           src="/hero.jpg"
           alt="Rituparno Ghosh"
-          className="h-full w-full object-cover object-top mono-image opacity-90"
+          className="h-full w-full object-cover object-[35%_50%] mono-image opacity-90"
         />
         <div className="absolute inset-0 bg-gradient-to-b from-ink/30 via-transparent to-ink/80" />
       </div>
